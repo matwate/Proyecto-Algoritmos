@@ -1,0 +1,5 @@
+---
+BasedOnStyle: Google  # You can choose other base styles like Google, Mozilla, WebKit, etc.
+IndentWidth: 4        # Number of spaces per indentation level
+TabWidth: 4           # Number of spaces per tab character (used when converting tabs to spaces)
+UseTab: Never         # Use spaces instead of tabs

@@ -10,7 +10,7 @@ ifeq ($(OS), Darwin)
     TARGET_EXTENSION =
 else ifeq ($(OS), Linux)
     CXX = g++
-    RAYLIB = ./external/raylib-5.5/src
+    RAYLIB = /usr/local/include/raylib
     CXXFLAGS = -I$(RAYLIB) -I./src -I./src/helpers -I./src/visualizers -I./src/common
     LDFLAGS = -L$(RAYLIB) -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
     FRAMEWORKS =

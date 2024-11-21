@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <chrono>
 #include <thread>
-
+#include <string>
 TreeVisualizer::TreeVisualizer() : root(nullptr) {}
 
 TreeVisualizer::~TreeVisualizer() {
